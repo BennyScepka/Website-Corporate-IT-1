@@ -15,12 +15,24 @@ The goal of this project is to implement a website that offers a novel, unique, 
 
 ### Languages/Technology Used: 
 <p float ="left">
+<a href="https://dev.w3.org/html5/html-author/"> 
 <img alt="HTML 5" src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
+</a>
+<a href="https://www.w3schools.com/cssref/">
 <img alt="CSS 3" src="https://img.icons8.com/color/50/000000/css3.png"/> 
+</a>
+<a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">
 <img alt="Bootstrap" src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
+</a>
+<a href="https://developer.mozilla.org/de/docs/Web/JavaScript">
 <img alt="JavaScript" src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> 
+</a>
+<a href="https://dev.mysql.com/doc/">
 <img alt="MySQL" src="https://img.icons8.com/color/48/000000/mysql-logo.png"/>
+</a>
+<a href="https://www.canva.com/">
 <img alt="Canva" src="https://img.icons8.com/cute-clipart/48/000000/canva-app.png"/>
+</a>
 </p>
 
 <br>
