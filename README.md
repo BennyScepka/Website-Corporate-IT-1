@@ -12,11 +12,13 @@ The goal of this project is to implement a website that offers a novel, unique, 
   - :point_right: Benny: JS Games, Wireframes/Graphics 
 
 ### Languages Used: 
-- **HTML 5** <img alt="HTML 5" src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> 
-- **CSS 3** <img src="https://img.icons8.com/color/50/000000/css3.png"/>
-- **JavaScript** <img alt="JavaScript" src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>
-- **Bootstrap** <img alt="Bootstrap" src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
-- **MySQL** <img src="https://img.icons8.com/color/48/000000/mysql-logo.png"/>
+<p float ="left">
+<img alt="HTML 5" src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
+<img alt="CSS 3" src="https://img.icons8.com/color/50/000000/css3.png"/> 
+<img alt="JavaScript" src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> 
+<img alt="Bootstrap" src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
+<img alt="MySQL" src="https://img.icons8.com/color/48/000000/mysql-logo.png"/>
+</p>
 
 <br>
 <a href="https://icons8.com/icon/108784/javascript">JavaScript icon by Icons8</a>
