@@ -11,7 +11,7 @@ The goal of this project is to implement a website that offers a novel, unique, 
   - :point_right: Benny: JS Games, Mockups/Graphics 
 
 ### Mockup / Wireframe:
-<a href:"https://www.canva.com/design/DAE56eTtoS8/share/preview?token=b-pOCXIbVBmNDoRWCKtxTA&role=EDITOR&utm_content=DAE56eTtoS8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"> Click Here to see (and edit) the Mockup </a> 
+[Click Here to see (and edit) the Mockup](https://www.canva.com/design/DAE56eTtoS8/share/preview?token=b-pOCXIbVBmNDoRWCKtxTA&role=EDITOR&utm_content=DAE56eTtoS8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
 ### Languages/Technology Used: 
 <p float ="left">
