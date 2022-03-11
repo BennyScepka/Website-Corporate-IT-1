@@ -10,5 +10,5 @@ Task
   <li> Peter: Frontend </li>
   <li> Max:   SQL </li>
   <li> Lukas: Frontend </li>
-  <li> Benny: (Häuptling): JS Games, Wireframes/Graphics </li> 
+  <li> Benny (Häuptling): JS Games, Wireframes/Graphics </li> 
 </ul>
