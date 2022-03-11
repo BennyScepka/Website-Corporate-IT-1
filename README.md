@@ -4,12 +4,11 @@
 The goal of this project is to implement a website that offers a novel, unique, and innovative service to help respond to issues that arise due to the increased feelings of loneliness during social isolation.
 
 ### Responsibilities
-
-  - :point_right: Jakob: Chat - Funktion 
+  - :point_right: Lukas: Frontend 
   - :point_right: Peter: Frontend 
   - :point_right: Max: Backend 
-  - :point_right: Lukas: Frontend 
-  - :point_right: Benny: JS Games, Wireframes/Graphics 
+  - :point_right: Jakob: Chat - Funktion 
+  - :point_right: Benny: JS Games, Mockups/Graphics 
 
 ### Languages Used: 
 <p float ="left">
