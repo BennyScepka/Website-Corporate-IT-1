@@ -17,7 +17,7 @@ The goal of this project is to implement a website that offers a novel, unique, 
 <img alt="JavaScript" src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> 
 <img alt="Bootstrap" src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
 <img alt="MySQL" src="https://img.icons8.com/color/48/000000/mysql-logo.png"/>
-<img alt="Canva" src="https://img.icons8.com/cute-clipart/64/000000/canva-app.png"/>
+<img alt="Canva" src="https://img.icons8.com/cute-clipart/48/000000/canva-app.png"/>
 </p>
 
 <br>
