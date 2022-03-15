@@ -11,8 +11,7 @@ The goal of this project is to implement a website that offers a novel, unique, 
 &emsp;:point_right: Benny: JS Games, Mockups/Graphics </br>
 
 ### Mockup / Wireframe:
-- [Mockup V1 dark:](https://www.canva.com/design/DAE56eTtoS8/share/preview?token=b-pOCXIbVBmNDoRWCKtxTA&role=EDITOR&utm_content=DAE56eTtoS8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)  
-
+- [Mockup V1 dark:](https://www.canva.com/design/DAE56eTtoS8/share/preview?token=b-pOCXIbVBmNDoRWCKtxTA&role=EDITOR&utm_content=DAE56eTtoS8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)   
 **Colors:**  
 Bluish-Black background: #000123  
 Button purple: #8c52ff  
