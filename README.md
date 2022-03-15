@@ -26,6 +26,8 @@ Dark Purple Box: #762fcf
 Pink Transparent Hue: #ed4deb  
 White-Text: #ffffff  
 Yellow-Text: #f9b850  
+- [Mockup Mix](https://www.canva.com/design/DAE7D8R500I/share/preview?token=koCLBzleTs1gmjud1Q-YGg&role=EDITOR&utm_content=DAE7D8R500I&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)  
+
 ### Languages/Technology Used:   
 Click on the logo for the documentation:
 <p float ="left">
