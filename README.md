@@ -27,7 +27,7 @@ Pink Transparent Hue: #ed4deb
 White-Text: #ffffff  
 Yellow-Text: #f9b850  
 ### Languages/Technology Used:   
-Click on the logo for the documentation.
+Click on the logo for the documentation:
 <p float ="left">
 <a href="https://dev.w3.org/html5/html-author/"> 
 <img alt="HTML 5" src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
