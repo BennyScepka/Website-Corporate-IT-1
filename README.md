@@ -22,7 +22,6 @@ White-Text: #ffffff
 Yellow-Text: #ffbd59  
 
 - [Mockup V2 light:](https://www.canva.com/design/DAE6r5K3fHU/share/preview?token=s5oFv9e5mLW_Mhu9-YZBdw&role=EDITOR&utm_content=DAE6r5K3fHU&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)    
-
 **Colors:**   
 Purple background: #9244f3  
 Dark Purple Box: #762fcf  
