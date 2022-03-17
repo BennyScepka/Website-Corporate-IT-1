@@ -11,6 +11,8 @@ The goal of this project is to implement a website that offers a novel, unique, 
 &emsp;:point_right: Benny: JS Games, Mockups/Graphics </br>
 
 ### Mockup / Wireframe:
+- Font type: ["Russo One"](https://fonts.google.com/specimen/Russo+One)
+
 - [Mockup V1 dark:](https://www.canva.com/design/DAE56eTtoS8/share/preview?token=b-pOCXIbVBmNDoRWCKtxTA&role=EDITOR&utm_content=DAE56eTtoS8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)   
 **Colors:**  
 Bluish-Black background: #000123  
@@ -20,12 +22,17 @@ White-Text: #ffffff
 Yellow-Text: #ffbd59  
 
 - [Mockup V2 light:](https://www.canva.com/design/DAE6r5K3fHU/share/preview?token=s5oFv9e5mLW_Mhu9-YZBdw&role=EDITOR&utm_content=DAE6r5K3fHU&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)    
+
 **Colors:**   
 Purple background: #9244f3  
 Dark Purple Box: #762fcf  
 Pink Transparent Hue: #ed4deb  
 White-Text: #ffffff  
 Yellow-Text: #f9b850  
+
+- [Mockup Mix](https://www.canva.com/design/DAE7D8R500I/share/preview?token=koCLBzleTs1gmjud1Q-YGg&role=EDITOR&utm_content=DAE7D8R500I&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)  
+
+
 ### Languages/Technology Used:   
 Click on the logo for the documentation:
 <p float ="left">
