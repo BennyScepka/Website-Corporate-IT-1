@@ -82,25 +82,23 @@ body {
     to {
         background-position: 0%;
     }
-  }
-  
-  @-webkit-keyframes slideright {
+}
+
+@-webkit-keyframes slideright {
     from {
         background-position: 10000%;
     }
     to {
         background-position: 0%;
     }
-  }
-
-  .ground-container {
-      height: 150px;
-      width: 580px;
-      left: 80px;
-      position:  absolute;
-  }
-  
-  .ground-moving {
+}
+.ground-container {
+    height: 150px;
+    width: 580px;
+    left: 80px;
+    position:  absolute;
+}
+.ground-moving {
     position: absolute;
     top: 580px;
     height: 150px;
@@ -110,4 +108,4 @@ body {
     -webkit-animation: slideright 100s infinite linear;
     width: 100%;
     z-index: +1;
-  }
+}
