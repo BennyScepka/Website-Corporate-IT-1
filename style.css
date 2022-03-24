@@ -50,14 +50,14 @@ body{
     font-size: 1vw;
     font-family: "Russo One", sans-serif;
     text-transform: uppercase;
+    margin-left: 5vw;
 }
 .nav-link{
     color:white;
     font-size: 1vw;
     font-family: "Russo One", sans-serif;
     text-transform: uppercase;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-right: 3vw;
 }
 .nav-link:hover, .navbar:hover{
     color:#f9b850;
