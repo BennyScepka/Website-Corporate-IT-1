@@ -1,0 +1,70 @@
+.yellowh1{
+    font-size:5vw;
+    font-family: "Orbitron", sans-serif;
+    color:#f9b850;
+    margin-left :100px;
+    margin-top: 18vw;
+}
+.whiteh1{
+    font-size:5vw;
+    font-family: "Orbitron", sans-serif;
+    margin-left:100px;
+    margin-top:-2vw;
+    color:white;
+}
+body{
+    background-image: url(img/Background_VioletAlpha.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Russo One", sans-serif;
+}
+
+.button1{
+    background-color: #8c52ff;
+    border:none;
+    text-align: left;
+    border-radius: 40px;
+    color: white;
+    padding: 12px;
+    margin-left: 100px;
+    margin-top:10px;
+    font-size: 20px;
+    font-family: "Russo One", sans-serif;
+}
+.button2{
+    background-color: #ffffff;
+    border:none;
+    text-align: center;
+    border-radius: 100px;
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: "Russo One", sans-serif;
+}
+.navbar{
+    cursor: pointer;
+    color:white;
+    font-size: 1vw;
+    font-family: "Russo One", sans-serif;
+    text-transform: uppercase;
+}
+.nav-link{
+    color:white;
+    font-size: 1vw;
+    font-family: "Russo One", sans-serif;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.nav-link:hover, .navbar:hover{
+    color:#f9b850;
+}
+.navbar-static-top{
+    width:95%;
+    margin:0 auto;
+    color:white;
+    border-bottom: 1px solid #fff;
+}
