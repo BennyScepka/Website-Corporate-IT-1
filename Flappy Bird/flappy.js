@@ -325,7 +325,7 @@ const score= {
             ctx.strokeText(this.value, 225, 186);
             // BEST SCORE
             ctx.fillText(this.best, 225, 228);
-            ctx.strokeText(this.best, 225, 228);
+            ctx.strokeText(this.best, 225, 228); 
         }
     },
     
