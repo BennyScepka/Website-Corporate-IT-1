@@ -1,13 +1,13 @@
 let dom_replay = document.querySelector("#replay");
 let dom_score = document.querySelector("#score");
 let dom_canvas = document.createElement("canvas");
+
 document.querySelector("#canvas").appendChild(dom_canvas);
 let CTX = dom_canvas.getContext("2d");
 
 const W = (dom_canvas.width = 400);
 const H = (dom_canvas.height = 400);
 
-//initialize Snake vars
 let snake,
     food,
     currentHue,
@@ -22,7 +22,6 @@ let snake,
     cellsCount,
     requestID;
 
-//Helper function
 let helpers = {
     Vec: class {
     constructor(x, y) {
@@ -72,7 +71,7 @@ let helpers = {
         CTX.stroke();
         CTX.closePath();
         }
-    }, //change colors
+    },
     randHue() {
         return ~~(Math.random() * 360);
     },
@@ -130,7 +129,6 @@ let helpers = {
         return start * (1 - t) + end * t;
     }
     };
-//implement the navigation keys
     let KEY = {
     ArrowUp: false,
     ArrowRight: false,
@@ -161,7 +159,6 @@ let helpers = {
         );
     }
     };
-//Snake Object
     class Snake {
     constructor(i, type) {
         this.pos = new helpers.Vec(W / 2, H / 2);
@@ -220,7 +217,6 @@ let helpers = {
         this.dir = new helpers.Vec(dir, 0);
         }
     }
-    //if one of the tracked steps is equal to another, the snake collided
     selfCollision() {
         for (let i = 0; i < this.history.length; i++) {
         let p = this.history[i];
@@ -250,7 +246,6 @@ let helpers = {
         }
     }
     }
-//Food object
     class Food {
     constructor() {
         this.pos = new helpers.Vec(
@@ -270,7 +265,6 @@ let helpers = {
         CTX.globalCompositeOperation = "source-over";
         CTX.shadowBlur = 0;
     }
-    //spawn at a random coordinate 
     spawn() {
         let randX = ~~(Math.random() * cells) * this.size;
         let randY = ~~(Math.random() * cells) * this.size;
@@ -283,7 +277,6 @@ let helpers = {
         this.pos = new helpers.Vec(randX, randY);
     }
     }
-// Particles object
     class Particle {
     constructor(pos, color, size, vel) {
         this.pos = pos;
@@ -330,7 +323,6 @@ let helpers = {
         particles.push(new Particle(position, currentHue, food.size, vel));
     }
     }
-//clear the canvas
     function clear() {
     CTX.clearRect(0, 0, W, H);
     }
@@ -362,7 +354,6 @@ let helpers = {
         gameOver();
     }
     }
-// Game-Over Screen
     function gameOver() {
     maxScore ? null : (maxScore = score);
     score > maxScore ? (maxScore = score) : null;
@@ -375,7 +366,6 @@ let helpers = {
     CTX.fillText(`SCORE   ${score}`, W / 2, H / 2 + 60);
     CTX.fillText(`MAXSCORE   ${maxScore}`, W / 2, H / 2 + 80);
     }
-// Restart Game
     function reset() {
     dom_score.innerText = "00";
     score = "00";
