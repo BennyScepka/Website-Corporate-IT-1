@@ -59,9 +59,17 @@ body{
     text-transform: uppercase;
     margin-right: 3vw;
 }
+
+.nav-link:visited, .navbar:visited{
+    color:white;
+}
 .nav-link:hover, .navbar:hover{
     color:#f9b850;
 }
+.nav-link:active, .navbar:active{
+    color:#f9b850;
+}
+
 .navbar-static-top{
     width:95%;
     margin:0 auto;
