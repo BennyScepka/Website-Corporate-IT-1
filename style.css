@@ -44,6 +44,7 @@ body{
     font-size: 20px;
     font-family: "Russo One", sans-serif;
 }
+
 .navbar{
     cursor: pointer;
     color:white;
@@ -117,4 +118,5 @@ body{
   }
   20%, 85% {
     transform: translate3d(2px, 0, 0);
+}
 }
