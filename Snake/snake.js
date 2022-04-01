@@ -364,8 +364,12 @@ let helpers = {
     CTX.fillText("GAME OVER", W / 2, H / 2);
     CTX.font = "15px Poppins, sans-serif";
     CTX.fillText(`SCORE   ${score}`, W / 2, H / 2 + 60);
-    CTX.fillText(`MAXSCORE   ${maxScore}`, W / 2, H / 2 + 80);
+    CTX.fillText(`MAXSCORE   ${maxScore}`, W / 2, H / 2 + 80);    
+    
+    window.location.assign(`snake.php?scoresnake=${score}`);
+
     }
+
     function reset() {
     dom_score.innerText = "00";
     score = "00";

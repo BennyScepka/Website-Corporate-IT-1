@@ -311,7 +311,7 @@ const score= {
     draw : function(){
         ctx.fillStyle = "#FFF";
         ctx.strokeStyle = "#000";
-        
+
         if(state.current == state.game){
             ctx.lineWidth = 2;
             ctx.font = "35px Teko";
@@ -326,6 +326,8 @@ const score= {
             // BEST SCORE
             ctx.fillText(this.best, 225, 228);
             ctx.strokeText(this.best, 225, 228); 
+
+            window.location.assign(`flappy.php?scoreflappy=${this.value}`);
         }
     },
     

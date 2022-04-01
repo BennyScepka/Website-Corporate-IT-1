@@ -57,4 +57,16 @@
     align-items: center;
     margin-bottom: 20px;
   }
+
+.highscorealign{
+  text-align: center;
+  margin: 20px;
+  font-size: 22px;
+}
+
+.theader{
+  font-size: 23px;
+  font-weight: bold;
+  text-decoration: underline;
+}
   
