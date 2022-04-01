@@ -7,7 +7,7 @@ let CTX = dom_canvas.getContext("2d");
 
 const W = (dom_canvas.width = 400);
 const H = (dom_canvas.height = 400);
-
+// Snake helpers 
 let snake,
     food,
     currentHue,
@@ -22,6 +22,7 @@ let snake,
     cellsCount,
     requestID;
 
+// Enivronment helpers
 let helpers = {
     Vec: class {
     constructor(x, y) {
@@ -159,6 +160,7 @@ let helpers = {
         );
     }
     };
+    // Create Snake Object
     class Snake {
     constructor(i, type) {
         this.pos = new helpers.Vec(W / 2, H / 2);
@@ -246,6 +248,7 @@ let helpers = {
         }
     }
     }
+    //Create Food Object
     class Food {
     constructor() {
         this.pos = new helpers.Vec(
@@ -277,6 +280,7 @@ let helpers = {
         this.pos = new helpers.Vec(randX, randY);
     }
     }
+    // Create Particle Object for Food
     class Particle {
     constructor(pos, color, size, vel) {
         this.pos = pos;
@@ -310,7 +314,7 @@ let helpers = {
         this.vel.y -= this.gravity;
     }
     }
-
+    
     function incrementScore() {
     score++;
     dom_score.innerText = score.toString().padStart(2, "0");
@@ -338,6 +342,7 @@ let helpers = {
     loop();
     }
 
+    // Create Game loop 
     function loop() {
     clear();
     if (!isGameOver) {
@@ -354,6 +359,7 @@ let helpers = {
         gameOver();
     }
     }
+    // Game Over State
     function gameOver() {
     maxScore ? null : (maxScore = score);
     score > maxScore ? (maxScore = score) : null;
@@ -370,6 +376,7 @@ let helpers = {
 
     }
 
+    //Reset Game State
     function reset() {
     dom_score.innerText = "00";
     score = "00";
