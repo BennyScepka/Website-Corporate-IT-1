@@ -11,7 +11,13 @@
     margin-top:-2vw;
     color:white;
 }
-
+.yellowh2{
+    font-size:2vw;
+    font-family: "Orbitron", sans-serif;
+    color:#f9b850;
+    margin-top: -9vw;
+    margin-left: 2vw;
+}
 .yellowh1p2{
     font-size:5vw;
     font-family: "Orbitron", sans-serif;
@@ -155,6 +161,16 @@
     padding-top: 10vw;
     padding-bottom: 20vw;
 }
+.page3{
+    background-image: url(img/righthue_purple_background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Russo One", sans-serif;
+    padding-top: 10vw;
+    padding-bottom: 40vw;
+}
 .p-white{
     color:white;
     font-size: 2vw;
@@ -178,4 +194,25 @@
     content:"";
     display: table;
     clear: both;
+  }
+.column33{
+    float: left;
+    width: 33%;
+}
+.whitebg{
+    background-color: white;
+    margin-top: 10vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    border-radius: 10%;
+    position: absolute;
+    padding-bottom: 2vw;
+
+}
+div.octagon {
+    clip-path: polygon(33.33% 0%, 66.66% 0%, 100% 33.33%, 100% 66.66%, 66.66% 100%, 33.33% 100%, 0 66.66%, 0 33.33%);
+    z-index: 9;
+    margin: 30px;
+    position: relative;
+    top: -10vw;
   }
