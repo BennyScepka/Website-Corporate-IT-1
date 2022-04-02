@@ -3,7 +3,6 @@
     font-family: "Orbitron", sans-serif;
     color:#f9b850;
     margin-left :100px;
-    margin-top: 18vw;
 }
 .whiteh1{
     font-size:5vw;
@@ -12,15 +11,24 @@
     margin-top:-2vw;
     color:white;
 }
-body{
-    background-image: url(img/Background_VioletAlpha.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: "Russo One", sans-serif;
-}
 
+.yellowh1p2{
+    font-size:5vw;
+    font-family: "Orbitron", sans-serif;
+    color:#f9b850;
+    margin-left :7vw;
+    margin-right: 7vw;
+    text-align: center;
+}
+.whiteh1p2{
+    font-size:5vw;
+    font-family: "Orbitron", sans-serif;
+    margin-left :7vw;
+    margin-right: 7vw;
+    margin-top:-2vw;
+    color:white;
+    text-align: center;
+}
 .button1{
     background-color: #8c52ff;
     border:none;
@@ -127,3 +135,47 @@ body{
 	.navbar .dropdown-menu.fade-up{ top:180%;  }
 	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 }	
+.landing-page{
+    padding-top: 18vw;
+    padding-bottom: 25vw;;
+    background-image: url(img/Background_VioletAlpha.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Russo One", sans-serif;
+}
+.page2{
+    background-image: url(img/lefthue_purple_backgroud.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Russo One", sans-serif;
+    padding-top: 10vw;
+    padding-bottom: 20vw;
+}
+.p-white{
+    color:white;
+    font-size: 2vw;
+    font-family: "Russo One", sans-serif;
+    text-transform: uppercase;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: 7vw;
+    text-align: center;
+}
+.column {
+    float: left;
+}
+.left {
+    width: 65%;
+}
+.right{
+    width: 35%; 
+}
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+  }
