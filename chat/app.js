@@ -1,9 +1,17 @@
+/*
+* Hook that gets called every 120 ms and requests messages from DB
+*/
+
 $("#messages").load("getMessages.php");
 $(function(){
     setInterval(function(){
         $("#messages").load("getMessages.php", {"author": sessionStorage.getItem("username")});
     }, 120);
 });
+
+/*
+* takes "username" from session storage and content of message box to send it to the php to save it to the DB 
+*/
 
 $(document).on("click", "#send-button" , function() {
     let formData = new FormData();
@@ -23,6 +31,10 @@ $(document).on("click", "#send-button" , function() {
         },
     });
 });
+
+/*
+* if username is set and user agrees to TOS, close modal and save username in local storage
+*/
 
 $(document).on("click", "#login-button" , function() {
     const consent = $("#login-consent").val();
