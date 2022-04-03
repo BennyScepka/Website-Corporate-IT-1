@@ -171,6 +171,16 @@
     padding-top: 10vw;
     padding-bottom: 40vw;
 }
+.page4{
+    background-image: url(img/lefthue_purple_backgroud.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Russo One", sans-serif;
+    padding-top: 10vw;
+    padding-bottom: 5vw;
+}
 .p-white{
     color:white;
     font-size: 2vw;
@@ -180,6 +190,16 @@
     margin-right: 7vw;
     margin-top: 7vw;
     text-align: center;
+}
+.p-orange{
+    color:#f9b850;
+    font-size: 2.5vw;
+    font-family: "Russo One", sans-serif;
+    margin-left: 6vw;
+    margin-top: 7vw;
+    padding-top: 6vw;
+    position: relative;
+    z-index: 100;
 }
 .column {
     float: left;
@@ -215,4 +235,31 @@ div.octagon {
     margin: 30px;
     position: relative;
     top: -10vw;
+  }
+  div.octagonPurple {
+    clip-path: polygon(33.33% 6%, 66.66% 0%, 100% 33.33%, 100% 55%, 66.66% 90%, 33.33% 100%, 0% 60%, 5% 25%);
+    background-color: #9344f379;
+    background-blend-mode:hue;
+    margin-top: 5vw;
+    margin-left: 7vw;
+    font-size: 2vw;
+    height: 30vw;
+    width: 30vw;
+    color:#f9b850;
+    font-size: 2.5vw;
+    font-family: "Russo One", sans-serif;
+    padding-top: 6vw;
+    padding-left: 5vw;
+  }
+  div.purplebox{
+    background-color: #7c36d2;
+    border-radius:15px;
+    margin-left: 7vw;
+    margin-top: 3vw;
+    font-size: 2vw;
+    color: #f9b850;
+    padding-left: 3vw;
+    padding-top: 1vw;
+    height: 10vw;
+    width: 40vw;
   }
