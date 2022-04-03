@@ -275,15 +275,15 @@ div.octagon {
 div.purplechat{
     margin-top: 15vw;
     margin-left: 12vw;
-    background:none;
+    background:transparent;
 }
 div.pinkchat{
     margin-top: 5vw;
     margin-left: 3vw;
-    background:none;
+    background:transparent;
 }
 div.yellowchat{
     margin-top: 10vw;
     margin-left: 3vw;
-    background:none;
+    background:transparent;
 }
