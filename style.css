@@ -275,28 +275,25 @@ div.octagon {
 div.purplechat{
     color: white;
     font-size: 2vw;
-    font-family: "Russo One, sans serif";
     margin-top: 13vw;
-    margin-left: 7vw;
-    position: absolute;
+    margin-left: 3vw;
+    position: relative;
     z-index: 1;
     text-align: center;
 }
 div.pinkchat{
     color: white;
     font-size: 2vw;
-    font-family: "Russo One, sans serif";
     margin-top: 5vw;
     margin-left: -7vw;
-    position: absolute;
+    position: relative;
     z-index: 1;
 }
 div.yellowchat{
     color: white;
     font-size: 2vw;
-    font-family: "Russo One, sans serif";
-    margin-top: 25vw;
+    margin-top: 15vw;
     margin-left: -7vw;
-    position: absolute;
+    position: relative;
     z-index: 1;
 }
