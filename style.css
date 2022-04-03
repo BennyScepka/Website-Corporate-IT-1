@@ -189,7 +189,7 @@
     background-attachment: fixed;
     font-family: "Russo One", sans-serif;
     padding-top: 6vw;
-    padding-bottom: 5vw;
+    padding-bottom: 10vw;
 }
 .page6{
     padding-top: 12vw;
@@ -273,14 +273,17 @@ div.octagon {
     width: 40vw;
   }
 div.purplechat{
-    margin-top: 16vw;
+    margin-top: 15vw;
     margin-left: 12vw;
+    background:none;
 }
 div.pinkchat{
     margin-top: 5vw;
     margin-left: 3vw;
+    background:none;
 }
 div.yellowchat{
     margin-top: 10vw;
     margin-left: 3vw;
+    background:none;
 }
