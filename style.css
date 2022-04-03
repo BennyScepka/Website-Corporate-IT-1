@@ -188,8 +188,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: "Russo One", sans-serif;
-    padding-top: 8vw;
-    padding-bottom: 44vw;
+    padding-top: 6vw;
+    padding-bottom: 10vw;
 }
 .page6{
     padding-top: 12vw;
@@ -273,27 +273,14 @@ div.octagon {
     width: 40vw;
   }
 div.purplechat{
-    color: white;
-    font-size: 2vw;
-    margin-top: 13vw;
-    margin-left: 3vw;
-    position: relative;
-    z-index: 1;
-    text-align: center;
+    margin-top: 16vw;
+    margin-left: 12vw;
 }
 div.pinkchat{
-    color: white;
-    font-size: 2vw;
     margin-top: 5vw;
-    margin-left: -7vw;
-    position: relative;
-    z-index: 1;
+    margin-left: 3vw;
 }
 div.yellowchat{
-    color: white;
-    font-size: 2vw;
-    margin-top: 15vw;
-    margin-left: -7vw;
-    position: relative;
-    z-index: 1;
+    margin-top: 10vw;
+    margin-left: 3vw;
 }
