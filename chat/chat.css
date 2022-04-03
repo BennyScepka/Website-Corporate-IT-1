@@ -1,0 +1,87 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+    height: 100vh;
+    overflow: scroll;
+}
+
+.footer {
+    width: 91%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+input[type="text"] {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 1.5rem;
+    min-width: 65%;
+}
+
+.send-button {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 30px;
+    border: 0;
+    background: linear-gradient(180deg, #9244F3 6.39%, #ED4DEB 98.7%);
+    color: white;
+    cursor: pointer;
+}
+.send-button:active {
+    transform: translateY(1px);
+}
+.send-icon {
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    overflow-y: scroll;
+    max-height: 80%;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+.message-container{
+    display: flex;
+    flex-direction: column;
+}
+.message {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    padding: 1rem;
+    max-width: 50%;
+    position: relative;
+}
+.message-user {
+    background-color: #9244F3;
+    border-radius: 30px 30px 0 30px;
+    align-self: flex-end;
+}
+.message-partner {
+    background-color: #ED4DEB;
+    border-radius: 0 30px 30px 30px;
+    align-self: flex-start;
+}
+.author {
+    font-size: 20px;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    color: #717171;
+}

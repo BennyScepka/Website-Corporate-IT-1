@@ -1,0 +1,80 @@
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 100vh;
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 3em;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.login-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+}
+
+.login-name-input {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 10px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 39px;
+}
+
+.login-consent-group {
+    flex-direction: row;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    gap: 1em;
+}
+
+.login-button-base {
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4rem;
+    color: #FFFFFF;
+    padding: 1rem 3rem 1rem 3rem;
+    cursor: pointer;
+    border-width: 1px;
+}
+
+.login-button {
+    background: linear-gradient(93.82deg, #9244F3 6.39%, #ED4DEB 98.7%);
+    border-style: solid;
+    border-color: transparent;
+}
+
+.login-button:hover {
+    box-shadow:0px 0px 0px 4px #ED4DEB inset;
+    background: #fefefe;
+    background-image: linear-gradient(93.82deg, #9244F3 6.39%, #ED4DEB 98.7%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+.login-button-disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+input[type="checkbox"] {
+    accent-color: #ED4DEB;
+}
