@@ -188,12 +188,12 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: "Russo One", sans-serif;
-    padding-top: 10vw;
-    padding-bottom: 40vw;
+    padding-top: 8vw;
+    padding-bottom: 44vw;
 }
 .page6{
     padding-top: 12vw;
-    padding-bottom: 19vw;
+    padding-bottom: 12vw;
     background-image: url(img/Mouse_background.png);
     background-size: cover;
     background-position: center;
@@ -272,3 +272,31 @@ div.octagon {
     height: 10vw;
     width: 40vw;
   }
+div.purplechat{
+    color: white;
+    font-size: 2vw;
+    font-family: "Russo One, sans serif";
+    margin-top: 13vw;
+    margin-left: 7vw;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+div.pinkchat{
+    color: white;
+    font-size: 2vw;
+    font-family: "Russo One, sans serif";
+    margin-top: 5vw;
+    margin-left: -7vw;
+    position: absolute;
+    z-index: 1;
+}
+div.yellowchat{
+    color: white;
+    font-size: 2vw;
+    font-family: "Russo One, sans serif";
+    margin-top: 25vw;
+    margin-left: -7vw;
+    position: absolute;
+    z-index: 1;
+}
