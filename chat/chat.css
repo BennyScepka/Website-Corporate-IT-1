@@ -2,21 +2,48 @@ body {
     font-family: 'DM Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
 }
 
 .app {
     height: 100vh;
     overflow: scroll;
+    background: linear-gradient(180deg, #9244F3 6.39%, #ED4DEB 98.7%);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 50vw;
+    height: 100vh;
+    background: #fefefe;
+    position: relative;
+    justify-self: center;
+    float: bottom;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.foot-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 2rem;
 }
 
 .footer {
     width: 91%;
     padding-left: 2rem;
-    padding-top: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 4rem;
+    padding-top: 2rem;
 }
 
 input[type="text"] {
@@ -47,6 +74,7 @@ input[type="text"] {
     margin: auto;
 }
 .chat{
+    margin-top: 2vh;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -58,6 +86,8 @@ input[type="text"] {
 .message-container{
     display: flex;
     flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .message {
     color: white;

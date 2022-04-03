@@ -5,7 +5,7 @@
 $("#messages").load("getMessages.php");
 $(function(){
     setInterval(function(){
-        $("#messages").load("getMessages.php", {"author": sessionStorage.getItem("username")});
+        $("#messages").load("http://localhost/Website-Corporate-IT-1/chat/getMessages.php", {"author": sessionStorage.getItem("username")});
     }, 120);
 });
 
@@ -20,7 +20,7 @@ $(document).on("click", "#send-button" , function() {
     const authorFromSessionStorage = sessionStorage.getItem("username");
     formData.append("author", authorFromSessionStorage);
     $.ajax({
-        url: "postMessage.php",
+        url: "http://localhost/Website-Corporate-IT-1/chat/postMessage.php",
         data: formData,
         cache: false,
         processData: false,
@@ -47,3 +47,23 @@ $(document).on("click", "#login-button" , function() {
         $("#modal").hide().css("visibility", "hidden");
     }
 });
+
+const styleLoginButton = () => {
+    const consent = $("#login-consent").is(":checked");
+    const loginUsername = $("#login-username").val();
+
+    if (consent && loginUsername) {
+        $("#login-button")
+            .removeAttr("disabled")
+            .removeClass("login-button-disabled")
+            .addClass("login-button");
+    } else {
+        $("#login-button").attr("disabled", "disabled")
+            .addClass("login-button-disabled")
+            .removeClass("login-button");
+    }
+};
+
+$(document).on("click", "#login-consent" , styleLoginButton);
+$(document).on("keypress", "#login-username", styleLoginButton)
+$(document).on("change", "#login-username", styleLoginButton)
