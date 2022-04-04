@@ -240,7 +240,7 @@
 }
 div.octagon {
     clip-path: polygon(33.33% 0%, 66.66% 0%, 100% 33.33%, 100% 66.66%, 66.66% 100%, 33.33% 100%, 0 66.66%, 0 33.33%);
-    z-index: 9;
+    z-index: 1;
     margin: 30px;
     position: relative;
     top: -10vw;
