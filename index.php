@@ -21,7 +21,7 @@
 	<body>
 		<nav class="navbar navbar-expand-md navbar-dark navbar-static-top bg-transparent fixed-top">
 			<div class="container-fluid">
-				<a class="navbar-brand mb-0 navbar" href="#">
+				<a class="navbar-brand mb-0 navbar" href="#landing-page">
 					<img
 						class="d-inline-block align-top" href="#landing-page"
 						src="img/Joystick_Logo_v2.png" width="30" height="30" alt="Social Funsolation">
