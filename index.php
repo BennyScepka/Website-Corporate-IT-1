@@ -230,15 +230,19 @@
 			</div>
 		</div>
 		<div class="page6" id = "page6">
-			<h1 class="whiteh1">
-				<a href="mailto:hello@socialfunsolation.com" style="color: white;text-decoration: none; ">
-					Send us<br>a message
-				</a>
-			</h1>
+			
 			<div class="row">
 				<div class="left" style="width: 50%;">
+				<h1 class="whiteh1">
+					<a href="mailto:hello@socialfunsolation.com" style="color: white;text-decoration: none; ">
+						Send us<br>a message
+					</a>
+				</h1>
 				</div>
 				<div class="right" style="width: 50%;">
+					<div class="map-responsive">
+						<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJv65jGssHbUcRqn7W5Wcq7VQ&key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc" width="250vw" height="250vw" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
 					<p class="p-white" style="margin-left: 0;font-size: 1vw; margin-top: 2vw;">
 						Department of Information Systems and New Media<br>
 						Welthandelsplatz 1<br>
@@ -256,5 +260,12 @@
 				</div>
 			</div>
 		</div>
+		<button type="button" class="btn btn-floating btn-lg" id="backtotop">
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+			</svg>
+		</button>
+		<!--back to top javascript-->
+		<script src="script.js"></script>
 	</body>
 </html>
