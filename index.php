@@ -94,7 +94,7 @@
 				</div>
 				<div class="right">
 					
-						<a href="Snake/snake.html">
+						<a target="_blank" href="Snake/snake.html">
 							<img src="img/snake_screenshot.png" alt="play snake!" width="400" height="400" style="border-radius: 7%;">
 						</a>
 				</div>
@@ -107,7 +107,7 @@
 				<div class="column33">
 					<div class="whitebg">
 						<div class="octagon">
-							<a href="Snake/snake.html">
+							<a target="_blank" href="Snake/snake.html">
 								<img src="img/snake_screenshot.png" alt="play snake!" style="border-radius: 7%;height: 20vw; width: 20vw;">
 							</a>
 						</div>
@@ -122,7 +122,7 @@
 				<div class="column33">
 					<div class="whitebg" style="margin-left: 4vw;">
 						<div class="octagon">
-							<a href="Flappy Bird/FlappyBird.html">
+							<a target="_blank" href="Flappy Bird/FlappyBird.html">
 								<img src="img/flappy_bird.png" alt="play flappy bird!" style="border-radius: 7%;height: 20vw; width: 20vw;">
 							</a>
 						</div>
@@ -210,19 +210,19 @@
 			<div class="row">
 				<div class="left" style="width: 50%;">
 					<div class="purplechat">
-						<a href="chat/chat.html" style="color: white; text-decoration: none;">
+						<a target="_blank" href="chat/chat.html" style="color: white; text-decoration: none;">
 							<img src="img/chatbubble_purple.png" style="height: 13vw; width: 34vw;">
 						</a>
 					</div>
 				</div>
 				<div class="right" style="width: 50%;">
 					<div class="pinkchat">
-						<a href="chat/chat.html" style="color: white; text-decoration: none;">
+						<a target="_blank" href="chat/chat.html" style="color: white; text-decoration: none;">
 							<img src="img/chatbubble_pink.png" style="height: 11vw; width: 34vw;">
 						</a>
 					</div>
 					<div class="yellowchat">
-						<a href="chat/chat.html" style="color: white; text-decoration: none;">
+						<a target="_blank" href="chat/chat.html" style="color: white; text-decoration: none;">
 							<img src="img/chatbubble_yellow.png" style="height: 11vw; width: 34vw;">
 						</a>
 					</div>
