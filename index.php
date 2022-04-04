@@ -52,7 +52,7 @@
 						<a class="nav-link" href="#page4">Highscore</a>
 					</li>
 					<li class="nav-item">
-					<a class="nav-link" href="chat/index.html">Chat</a>
+					<a class="nav-link" target="_blank" href="chat/index.html">Chat</a>
 					</li>
 					<li class="nav-item">
 					<a class="nav-link" href="#page6">Contact</a>
