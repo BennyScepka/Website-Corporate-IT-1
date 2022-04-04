@@ -52,7 +52,7 @@
 						<a class="nav-link" href="#page4">Highscore</a>
 					</li>
 					<li class="nav-item">
-					<a class="nav-link" target="_blank" href="chat/chat.html">Chat</a>
+					<a class="nav-link" target="_blank" href="chat/chat.php">Chat</a>
 					</li>
 					<li class="nav-item">
 					<a class="nav-link" href="#page6">Contact</a>
@@ -210,19 +210,19 @@
 			<div class="row">
 				<div class="left" style="width: 50%;">
 					<div class="purplechat">
-						<a target="_blank" href="chat/chat.html" style="color: white; text-decoration: none;">
+						<a target="_blank" href="chat/chat.php" style="color: white; text-decoration: none;">
 							<img src="img/chatbubble_purple.png" style="height: 13vw; width: 34vw;">
 						</a>
 					</div>
 				</div>
 				<div class="right" style="width: 50%;">
 					<div class="pinkchat">
-						<a target="_blank" href="chat/chat.html" style="color: white; text-decoration: none;">
+						<a target="_blank" href="chat/chat.php" style="color: white; text-decoration: none;">
 							<img src="img/chatbubble_pink.png" style="height: 11vw; width: 34vw;">
 						</a>
 					</div>
 					<div class="yellowchat">
-						<a target="_blank" href="chat/chat.html" style="color: white; text-decoration: none;">
+						<a target="_blank" href="chat/chat.php" style="color: white; text-decoration: none;">
 							<img src="img/chatbubble_yellow.png" style="height: 11vw; width: 34vw;">
 						</a>
 					</div>
