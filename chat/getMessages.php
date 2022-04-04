@@ -21,7 +21,7 @@ if ($conn->connect_error) {
 $sql = "
 SELECT author, message
 FROM `chat_messages`
-WHERE `timestamp` > NOW() - INTERVAL 15 MINUTE
+WHERE `timestamp` > NOW() - INTERVAL 10 MINUTE
 ORDER BY `timestamp`
 LIMIT 20
 ;";

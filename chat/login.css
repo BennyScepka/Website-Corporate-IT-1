@@ -4,7 +4,7 @@
     left: 0;
     width: 80vw;
     height: 100vh;
-    background-color: #fefefe;
+    background-image: url(../img/lefthue_purple_backgroud.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +26,6 @@
     box-sizing: border-box;
     border-radius: 30px;
     padding: 10px;
-    font-style: italic;
     font-weight: 300;
     font-size: 25px;
     line-height: 39px;
@@ -43,28 +42,27 @@
 
 .login-button-base {
     border-radius: 50px;
-    font-style: normal;
+    font-style: "Russo One", sans-serif;
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 100%;
     color: #FFFFFF;
     padding: 1rem 3rem 1rem 3rem;
     cursor: pointer;
     border-width: 1px;
+    width: 50%;
+    align-self: center;
+    margin: 1rem;
 }
 
 .login-button {
-    background: linear-gradient(93.82deg, #9244F3 6.39%, #ED4DEB 98.7%);
+    background: #f9b850;
     border-style: solid;
     border-color: transparent;
+    font-family: "Russo One", sans-serif;
+
 }
 
-.login-button:hover {
-    box-shadow:0px 0px 0px 4px #ED4DEB inset;
-    background: #fefefe;
-    background-image: linear-gradient(93.82deg, #9244F3 6.39%, #ED4DEB 98.7%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 button:active {
     transform: translateY(1px);
@@ -73,8 +71,73 @@ button:active {
 .login-button-disabled {
     background-color: gray;
     cursor: not-allowed;
+    font-family: "Russo One", sans-serif;
 }
 
 input[type="checkbox"] {
-    accent-color: #ED4DEB;
+    accent-color: #f9b850;
+    
 }
+
+.whiteh1{
+    font-size:5vw;
+    font-style: "Orbitron";
+    margin-left:20px;
+    margin-top:-2vw;
+    color:white;
+    align-self: center;
+}
+.left{
+    float: left;
+    width: 40%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-family: "Orbitron", "sans-serif";
+}
+.right{
+    float: right;
+    width: 60%;
+    padding: 5px;
+    align-items: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display:flex;
+
+}
+
+#login-username{
+    margin: 1rem;
+}
+
+.orangeh1{
+    color: #f9b850;
+}
+
+@media only screen and (max-width: 600px) {
+    .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #login-username{
+        font-size: 1rem;
+        height: 4rem;
+    }
+    .right{
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+        align-items: center;
+        padding: 1rem;
+    }
+    .whiteh1{
+        font-size: 3rem;
+        margin: auto;
+    }
+
+  }

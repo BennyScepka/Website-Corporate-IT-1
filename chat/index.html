@@ -5,20 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Title</title>
+    <title>Social Funsolation Chat</title>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Russo+One&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="chat.css">
     <link rel="stylesheet" href="login.css">
     <script src="app.js"></script>
+    
 </head>
 <body>
 <div id="app" class="app">
     <div class="content">
+        <div class="header">
+            <h1> Welcome to the chat!</h1>
+        </div>
         <div id="messages" class="chat"></div>
         <div id="footer-container">
             <div class="footer">
@@ -39,14 +44,25 @@
         </div>
     </div>
     <div class="modal" id="modal">
-        <h1 class="login-header">What’s your name?</h1>
-        <input type="text" id="login-username" placeholder="John Doe" class="login-name-input">
-        <div class="login-consent-group flex">
-            <input type="checkbox" id="login-consent" class="login-consent-checkbox">
-            <label for="login-consent">I have read and accept our terms of service and privacy policy.</label>
+        <div class="row">
+            <div class="left">
+                <h1 class="whiteh1" style="margin-bottom: -3vw;">
+                <span>Choose a</span>
+                 <span class="orangeh1">name</span>  
+                 <br>
+                 <span>and get started!</span>
+                </h1>
+            </div>
+            <div class="right">
+                    <input type="text" id="login-username" placeholder="What's your name?" class="login-name-input">
+                    <div class="login-consent-group flex">
+                        <input type="checkbox" id="login-consent" class="login-consent-checkbox">
+                            <label for="login-consent">I have read and accept our terms of service and privacy policy.</label>
+                    </div>
+                <button id="login-button" class="login-button-base login-button-disabled">CHAT</button>
+            </div>
         </div>
-        <button id="login-button" class="login-button-base login-button-disabled">CHAT</button>
-    </div>
+    </div>    
 </div>
 </body>
 </html>
