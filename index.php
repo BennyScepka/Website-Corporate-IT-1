@@ -107,8 +107,8 @@
 				<div class="column33">
 					<div class="whitebg">
 						<div class="octagon">
-							<a target="_blank" href="Snake/snake.html">
-								<img src="img/snake_screenshot.png" alt="play snake!" width="300" height="300" style="border-radius: 7%;">
+							<a href="Snake/snake.html">
+								<img src="img/snake_screenshot.png" alt="play snake!" style="border-radius: 7%;height: 20vw; width: 20vw;">
 							</a>
 						</div>
 						<h2 class="yellowh2">
@@ -122,8 +122,8 @@
 				<div class="column33">
 					<div class="whitebg" style="margin-left: 4vw;">
 						<div class="octagon">
-							<a target="_blank" href="Flappy Bird/FlappyBird.html">
-								<img src="img/flappy_bird.png" alt="play flappy bird!" width="300" height="300" style="border-radius: 7%;">
+							<a href="Flappy Bird/FlappyBird.html">
+								<img src="img/flappy_bird.png" alt="play flappy bird!" style="border-radius: 7%;height: 20vw; width: 20vw;">
 							</a>
 						</div>
 						<h2 class="yellowh2">
@@ -137,7 +137,7 @@
 				<div class="column33">
 					<div class="whitebg" style="margin-left: 1vw;">
 						<div class="octagon">
-							<img src="img/dino_jump.png" alt="more coming soon!" width="300" height="300" style="border-radius: 7%;">
+							<img src="img/dino_jump.png" alt="more coming soon!" style="border-radius: 7%;height: 20vw; width: 20vw;">
 						</div>
 						<h2 class="yellowh2">
 							More Coming Soon
