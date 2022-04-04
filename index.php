@@ -77,7 +77,7 @@
 				</span>
         	</button>
 		</div>
-		<div style="background-image: url('Mouse_background.jpg'); background-size: 100% 100%;">
+		<div style="background-image: url('img/Mouse_background.png'); background-size: 100% 100%;">
 		</div>
 		<div class="page2" id = "page2">
 			<div class="row">
