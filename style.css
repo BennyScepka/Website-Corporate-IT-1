@@ -246,7 +246,7 @@ div.octagon {
     top: -10vw;
   }
   div.octagonPurple {
-    clip-path: polygon(33.33% 6%, 66.66% 0%, 100% 33.33%, 100% 55%, 66.66% 90%, 33.33% 100%, 0% 60%, 5% 25%);
+    clip-path: polygon(33.33% 0%, 66.66% 0%, 100% 33.33%, 100% 66.66%, 66.66% 100%, 33.33% 100%, 0 66.66%, 0 33.33%);
     background-color: #9344f379;
     background-blend-mode:hue;
     margin-top: 5vw;
