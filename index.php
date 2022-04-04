@@ -210,31 +210,19 @@
 			<div class="row">
 				<div class="left" style="width: 50%;">
 					<div class="purplechat">
-<<<<<<< HEAD
-						<a href="chat/index.html" target="_blank" git stgitstyle="color: white; text-decoration: none;">
-=======
 						<a target="_blank" href="chat/chat.html" style="color: white; text-decoration: none;">
->>>>>>> fa5a643cee193001bea1e5872580a2c8d9bdc510
 							<img src="img/chatbubble_purple.png" style="height: 13vw; width: 34vw;">
 						</a>
 					</div>
 				</div>
 				<div class="right" style="width: 50%;">
 					<div class="pinkchat">
-<<<<<<< HEAD
-						<a href="chat/index.html" target="_blank" style="color: white; text-decoration: none;">
-=======
 						<a target="_blank" href="chat/chat.html" style="color: white; text-decoration: none;">
->>>>>>> fa5a643cee193001bea1e5872580a2c8d9bdc510
 							<img src="img/chatbubble_pink.png" style="height: 11vw; width: 34vw;">
 						</a>
 					</div>
 					<div class="yellowchat">
-<<<<<<< HEAD
-						<a href="chat/index.html" target="_blank" style="color: white; text-decoration: none;">
-=======
 						<a target="_blank" href="chat/chat.html" style="color: white; text-decoration: none;">
->>>>>>> fa5a643cee193001bea1e5872580a2c8d9bdc510
 							<img src="img/chatbubble_yellow.png" style="height: 11vw; width: 34vw;">
 						</a>
 					</div>
