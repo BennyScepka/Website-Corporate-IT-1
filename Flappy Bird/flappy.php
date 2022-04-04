@@ -28,6 +28,7 @@
                 <h1>Your score of <?php echo "$score"?> will be added to the Highscore.</h1> <span></span>
             </div>
         </div>
+        <p>Get back to the game in <span id="counter">7</span> seconds.</p>
         <script type="text/javascript">
             function countdown() {
                 var i = document.getElementById('counter');
