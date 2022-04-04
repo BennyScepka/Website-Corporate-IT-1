@@ -210,19 +210,19 @@
 			<div class="row">
 				<div class="left" style="width: 50%;">
 					<div class="purplechat">
-						<a href="chat/index.html" style="color: white; text-decoration: none;">
+						<a href="chat/index.html" target="_blank" git stgitstyle="color: white; text-decoration: none;">
 							<img src="img/chatbubble_purple.png" style="height: 13vw; width: 34vw;">
 						</a>
 					</div>
 				</div>
 				<div class="right" style="width: 50%;">
 					<div class="pinkchat">
-						<a href="chat/index.html" style="color: white; text-decoration: none;">
+						<a href="chat/index.html" target="_blank" style="color: white; text-decoration: none;">
 							<img src="img/chatbubble_pink.png" style="height: 11vw; width: 34vw;">
 						</a>
 					</div>
 					<div class="yellowchat">
-						<a href="chat/index.html" style="color: white; text-decoration: none;">
+						<a href="chat/index.html" target="_blank" style="color: white; text-decoration: none;">
 							<img src="img/chatbubble_yellow.png" style="height: 11vw; width: 34vw;">
 						</a>
 					</div>
