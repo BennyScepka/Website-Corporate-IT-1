@@ -21,9 +21,9 @@
 	<body>
 		<nav class="navbar navbar-expand-md navbar-dark navbar-static-top bg-transparent fixed-top">
 			<div class="container-fluid">
-				<a class="navbar-brand mb-0 navbar" href="#">
+				<a class="navbar-brand mb-0 navbar" href="#landing-page">
 					<img
-						class="d-inline-block align-top"
+						class="d-inline-block align-top" href="#landing-page"
 						src="img/Joystick_Logo_v2.png" width="30" height="30" alt="Social Funsolation">
 						SOCIAL FUNSOLATION
 				</a>
@@ -39,7 +39,7 @@
 					<a class="nav-link" href="#page2">About</a>
 					</li>
 					<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<a class="nav-link dropdown-toggle" href="#page3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						Games
 					</a>
 					<ul class="dropdown-menu fade-down" aria-labelledby="navbarDropdown">
@@ -52,7 +52,7 @@
 						<a class="nav-link" href="#page4">Highscore</a>
 					</li>
 					<li class="nav-item">
-					<a class="nav-link" href="chat/index.html">Chat</a>
+					<a class="nav-link" target="_blank" href="chat/chat.html">Chat</a>
 					</li>
 					<li class="nav-item">
 					<a class="nav-link" href="#page6">Contact</a>
@@ -94,7 +94,7 @@
 				</div>
 				<div class="right">
 					
-						<a href="Snake/snake.html">
+						<a target="_blank" href="Snake/snake.html">
 							<img src="img/snake_screenshot.png" alt="play snake!" width="400" height="400" style="border-radius: 7%;">
 						</a>
 				</div>
@@ -108,7 +108,7 @@
 					<div class="whitebg">
 						<div class="octagon">
 							<a target="_blank" href="Snake/snake.html">
-								<img src="img/snake_screenshot.png" alt="play snake!" width="300" height="300" style="border-radius: 7%;">
+								<img src="img/snake_screenshot.png" alt="play snake!" style="border-radius: 7%;height: 20vw; width: 20vw;">
 							</a>
 						</div>
 						<h2 class="yellowh2">
@@ -123,7 +123,7 @@
 					<div class="whitebg" style="margin-left: 4vw;">
 						<div class="octagon">
 							<a target="_blank" href="Flappy Bird/FlappyBird.html">
-								<img src="img/flappy_bird.png" alt="play flappy bird!" width="300" height="300" style="border-radius: 7%;">
+								<img src="img/flappy_bird.png" alt="play flappy bird!" style="border-radius: 7%;height: 20vw; width: 20vw;">
 							</a>
 						</div>
 						<h2 class="yellowh2">
@@ -137,7 +137,7 @@
 				<div class="column33">
 					<div class="whitebg" style="margin-left: 1vw;">
 						<div class="octagon">
-							<img src="img/dino_jump.png" alt="more coming soon!" width="300" height="300" style="border-radius: 7%;">
+							<img src="img/dino_jump.png" alt="more coming soon!" style="border-radius: 7%;height: 20vw; width: 20vw;">
 						</div>
 						<h2 class="yellowh2">
 							More Coming Soon
@@ -210,19 +210,31 @@
 			<div class="row">
 				<div class="left" style="width: 50%;">
 					<div class="purplechat">
+<<<<<<< HEAD
 						<a href="chat/index.html" target="_blank" git stgitstyle="color: white; text-decoration: none;">
+=======
+						<a target="_blank" href="chat/chat.html" style="color: white; text-decoration: none;">
+>>>>>>> fa5a643cee193001bea1e5872580a2c8d9bdc510
 							<img src="img/chatbubble_purple.png" style="height: 13vw; width: 34vw;">
 						</a>
 					</div>
 				</div>
 				<div class="right" style="width: 50%;">
 					<div class="pinkchat">
+<<<<<<< HEAD
 						<a href="chat/index.html" target="_blank" style="color: white; text-decoration: none;">
+=======
+						<a target="_blank" href="chat/chat.html" style="color: white; text-decoration: none;">
+>>>>>>> fa5a643cee193001bea1e5872580a2c8d9bdc510
 							<img src="img/chatbubble_pink.png" style="height: 11vw; width: 34vw;">
 						</a>
 					</div>
 					<div class="yellowchat">
+<<<<<<< HEAD
 						<a href="chat/index.html" target="_blank" style="color: white; text-decoration: none;">
+=======
+						<a target="_blank" href="chat/chat.html" style="color: white; text-decoration: none;">
+>>>>>>> fa5a643cee193001bea1e5872580a2c8d9bdc510
 							<img src="img/chatbubble_yellow.png" style="height: 11vw; width: 34vw;">
 						</a>
 					</div>
