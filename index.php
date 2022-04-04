@@ -39,7 +39,7 @@
 					<a class="nav-link" href="#page2">About</a>
 					</li>
 					<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<a class="nav-link dropdown-toggle" href="#page3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						Games
 					</a>
 					<ul class="dropdown-menu fade-down" aria-labelledby="navbarDropdown">
