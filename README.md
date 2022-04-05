@@ -3,6 +3,13 @@
 
 The goal of this project is to implement a website that offers a novel, unique, and innovative service to help respond to issues that arise due to the increased feelings of loneliness during social isolation.
 
+### Installation
+1. Add unzipped project folder to htdocs
+2. In PHPMyAdmin create a new schema (Struktur) called 'wu'
+3. Run the SQL-statements from the file 'chat.sql' located in the 'sql-files' folder
+4. Run the SQL-statements from the file 'highscore.sql' located in the 'sql-files' folder
+5. Website is ready to use
+
 ### Responsibilities
 &emsp;:point_right: Lukas: Frontend </br>
 &emsp;:point_right: Peter: Frontend </br>
