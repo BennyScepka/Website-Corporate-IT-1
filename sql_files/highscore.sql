@@ -7,16 +7,6 @@
 -- Server-Version: 10.4.22-MariaDB
 -- PHP-Version: 8.1.2
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
 --
 -- Datenbank: `chat`
 --
@@ -24,7 +14,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Tabellenstruktur für Tabelle `highscore`
+-- Tabellenstruktur für Tabelle `Highscore`
 --
 
 CREATE TABLE `Highscore` (
@@ -38,7 +28,7 @@ CREATE TABLE `Highscore` (
 --
 
 --
--- Indizes für die Tabelle `highscore`
+-- Indizes für die Tabelle `Highscore`
 --
 ALTER TABLE `Highscore`
   ADD PRIMARY KEY (`Id`);
@@ -48,12 +38,10 @@ ALTER TABLE `Highscore`
 --
 
 --
--- AUTO_INCREMENT für Tabelle `highscore`
+-- AUTO_INCREMENT für Tabelle `Highscore`
 --
 ALTER TABLE `Highscore`
   MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
-COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+insert into Highscore(GameName, Score) values('Snake', 0); 
+insert into Highscore(GameName, Score) values('Flappy', 0);
