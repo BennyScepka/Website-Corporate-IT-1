@@ -27,8 +27,8 @@ SET time_zone = "+00:00";
 -- Tabellenstruktur für Tabelle `highscore`
 --
 
-CREATE TABLE `highscore` (
-  `id` int(11) NOT NULL,
+CREATE TABLE `Highscore` (
+  `Id` int(11) NOT NULL,
   `GameName` varchar(255) DEFAULT NULL,
   `Score` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -40,8 +40,8 @@ CREATE TABLE `highscore` (
 --
 -- Indizes für die Tabelle `highscore`
 --
-ALTER TABLE `highscore`
-  ADD PRIMARY KEY (`id`);
+ALTER TABLE `Highscore`
+  ADD PRIMARY KEY (`Id`);
 
 --
 -- AUTO_INCREMENT für exportierte Tabellen
@@ -50,8 +50,8 @@ ALTER TABLE `highscore`
 --
 -- AUTO_INCREMENT für Tabelle `highscore`
 --
-ALTER TABLE `highscore`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `Highscore`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
