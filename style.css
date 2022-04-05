@@ -35,7 +35,7 @@
     color:white;
     text-align: center;
 }
-.button1{
+#button1{
     background-color: #8c52ff;
     border:none;
     text-align: left;
@@ -110,7 +110,7 @@
   color: #f9b850;
 }
 
-.button1:hover {
+#button1:hover {
   animation: shake 3s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
   perspective: 1000px;
