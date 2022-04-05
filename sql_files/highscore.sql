@@ -8,7 +8,7 @@
 -- PHP-Version: 8.1.2
 
 --
--- Datenbank: `chat`
+-- Datenbank: `wu`
 --
 
 -- --------------------------------------------------------
@@ -43,5 +43,3 @@ ALTER TABLE `Highscore`
 ALTER TABLE `Highscore`
   MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
 
-insert into Highscore(GameName, Score) values('Snake', 0); 
-insert into Highscore(GameName, Score) values('Flappy', 0);

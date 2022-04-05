@@ -4,7 +4,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "chat";
+$dbname = "wu";
 
 $_SESSION['$user'] = $_POST["author"];
 
