@@ -31,9 +31,7 @@ CREATE TABLE `chat_messages` (
   `author` text NOT NULL,
   `timestamp` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `message` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
-COMMIT
-;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
 
