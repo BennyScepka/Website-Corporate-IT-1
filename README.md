@@ -32,7 +32,7 @@ Yellow-Text: #f9b850
 
 ### Marketing Video / Website-Teaser:
 
-- [CLick here to view the viedeo online:](https://www.canva.com/design/DAE8XRQ2IPc/NHUHV8Bap707KfZ6unt-Hw/watch?utm_content=DAE8XRQ2IPc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)  
+- [CLick here to view the video online:](https://www.canva.com/design/DAE8XRQ2IPc/NHUHV8Bap707KfZ6unt-Hw/watch?utm_content=DAE8XRQ2IPc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)  
 
 ### Agile Workflow:
 [Click here to see the Technology Roadmap and the Product Backlog:](https://miro.com/welcomeonboard/NHVDQ1liVXc4UjRYZ3pFOUNYSnB0cWZHSkJrN25KSmZZN1VGaTIzQ2JYQzhITFJhdjlkcEloSXhDM1kyOHB5dHwzNDU4NzY0NTE0NTQxMzM1MjE3?invite_link_id=125905989869)
