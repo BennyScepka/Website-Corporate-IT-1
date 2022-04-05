@@ -5,7 +5,7 @@
 $("#messages").load("getMessages.php");
 $(function(){
     setInterval(function(){
-        $("#messages").load("http://localhost/Website-Corporate-IT-1/chat/getMessages.php", {"author": sessionStorage.getItem("username")});
+        $("#messages").load("getMessages.php", {"author": sessionStorage.getItem("username")});
     }, 120);
 });
 
@@ -20,7 +20,7 @@ $(document).on("click", "#send-button" , function() {
     const authorFromSessionStorage = sessionStorage.getItem("username");
     formData.append("author", authorFromSessionStorage);
     $.ajax({
-        url: "http://localhost/Website-Corporate-IT-1/chat/postMessage.php",
+        url: "postMessage.php",
         data: formData,
         cache: false,
         processData: false,

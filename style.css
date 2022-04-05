@@ -297,11 +297,14 @@ button#backtotop{
     padding: 12px;
     margin-left: 100px;
     margin-top:10px;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Russo One", sans-serif;
     bottom: 20px;
     right: 20px;
     display: none;
+}
+button#backtotop:hover{
+    opacity: 70%;
 }
 .map-responsive{
     overflow:hidden;

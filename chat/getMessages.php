@@ -1,12 +1,10 @@
 <?php
 
-header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
 
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "chat";
+$dbname = "wu";
 
 $user = $_REQUEST["author"];
 
